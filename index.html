@@ -4,21 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BikeCraft</title>
+  <title>BikCraft</title>
 
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <img src="/img/bikcraft.svg" alt="BikeCraft Logo" srcset="">
+  <header>
+    <img src="/img/bikcraft.svg" alt="BikeCraft Logo" srcset="">
 
-  <div class="nav">
-    <a href="">Sobre</a>
-    <a href="">Produtos</a>
-    <a href="">Lojas</a>
-    <a href="">Contato</a>
-  </div>
-
-  <div class="content">
+    <nav aria-label="primaria">
+      <ul class="nav">
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Produtos</a></li>
+        <li><a href="">Lojas</a></li>
+        <li><a href="">Contato</a></li>
+      </ul> 
+    </nav>
+  </header>
+  
+  <main class="content">
     <div class="intro">
       <h1>Bicicletas feitas a mão</h1>
       <p>
@@ -32,31 +36,32 @@
       Vantagens Bikcraft
     </h2>
 
-    <div class="vantagens">
-      <div class="vantagens-item">
+    <ul class="vantagens">
+
+      <li class="vantagens-item">
         <img src="/img/eletrica.svg" alt="" srcset="">
         <h3>Motor Elétrico</h3>
+
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
+      </li>
 
-
-      <div class="vantagens-item">
+      <li class="vantagens-item">
         <img src="/img/velocidade.svg" alt="" srcset="">
         <h3>40 km/h</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-      </div>
+      </li>
 
-      <div class="vantagens-item">
+      <li class="vantagens-item">
         <img src="/img/rastreador.svg" alt="" srcset="">
         <h3>Rastreador</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-      </div>
+      </li>
     
-    </div>
-  </div>
+    </ul>
+  </main>
 
-  <div class="footer">
+  <footer>
     <p>Bikcraft - Todos os direitos reservados!</p>
-  </div>
+  </footer>
 </body>
 </html>
